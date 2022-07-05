@@ -1,14 +1,15 @@
 {
   "name": "cyberdude-theme",
-  "publisher": "Anbuselvan Rocky",
+  "publisher": "AnbuselvanRocky",
   "author": "Anbuselvan (http://twitter.com/anbuselvanrocky)",
   "displayName": "CyberDude Theme",
-  "description": "Modern attractive themes",
+  "description": "Modern attractive themes to build your apps faster! 🔥",
+  "icon": "cyberdude.jpg",
   "galleryBanner": {
     "color": "#31364A",
     "theme": "dark"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.12.0"
   },
@@ -33,7 +34,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "CyberDude Theme",
+        "label": "CyberDude",
         "uiTheme": "vs-dark",
         "path": "./themes/cyberdude-default.json"
       },
