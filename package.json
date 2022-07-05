@@ -1,0 +1,60 @@
+{
+  "name": "cyberdude-theme",
+  "publisher": "Anbuselvan Rocky",
+  "author": "Anbuselvan (http://twitter.com/anbuselvanrocky)",
+  "displayName": "CyberDude Theme",
+  "description": "Modern attractive themes",
+  "galleryBanner": {
+    "color": "#31364A",
+    "theme": "dark"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "keywords": [
+    "cyberdude theme",
+    "cyberdude",
+    "cyberdude dark theme",
+    "cool"
+  ],
+  "repository": {
+    "url": "https://github.com/anburocky3/vscode-cyberdude-theme",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/anburocky3/vscode-cyberdude-theme/issues"
+  },
+  "license": "MIT",
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CyberDude Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberdude-default.json"
+      },
+      {
+        "label": "CyberDude Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberdude-cool.json"
+      },
+      {
+        "label": "CyberDude Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberdude-dark.json"
+      },
+      {
+        "label": "CyberDude Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberdude-black.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "publisherDisplayName": "Anbuselvan Rocky"
+  }
+}
