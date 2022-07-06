@@ -365,7 +365,8 @@
         "wildcard.comment"
       ],
       "settings": {
-        "foreground": "#6272A4"
+        "foreground": "#6272A4",
+        "fontStyle": "italic"
       }
     },
     {
@@ -468,6 +469,11 @@
       }
     },
     {
+      "name": "Variable Property Other object property",
+      "scope": ["variable.other.object.property"],
+      "settings": { "foreground": "#BD93F9", "fontStyle": "italic" }
+    },
+    {
       "name": "Magic functions",
       "scope": ["support.function.magic"],
       "settings": {
@@ -478,7 +484,8 @@
       "name": "Keywords",
       "scope": ["keyword", "punctuation.definition.keyword"],
       "settings": {
-        "foreground": "#FF79C6"
+        "foreground": "#FF79C6",
+        "fontStyle": "italic"
       }
     },
     {
@@ -562,7 +569,8 @@
       "name": "Storage",
       "scope": ["storage"],
       "settings": {
-        "foreground": "#FF79C6"
+        "foreground": "#FF79C6",
+        "fontStyle": "italic"
       }
     },
     {
@@ -667,19 +675,22 @@
     {
       "scope": ["markup.inserted"],
       "settings": {
-        "foreground": "#50FA7B"
+        "foreground": "#50FA7B",
+        "fontStyle": "italic"
       }
     },
     {
       "scope": ["markup.deleted"],
       "settings": {
-        "foreground": "#FF5555"
+        "foreground": "#FF5555",
+        "fontStyle": "italic"
       }
     },
     {
       "scope": ["markup.changed"],
       "settings": {
-        "foreground": "#FFB86C"
+        "foreground": "#FFB86C",
+        "fontStyle": "italic"
       }
     },
     {
@@ -712,7 +723,8 @@
       "name": "Elixir function definitions",
       "scope": ["entity.name.function.elixir"],
       "settings": {
-        "foreground": "#50FA7B"
+        "foreground": "#50FA7B",
+        "fontStyle": "italic"
       }
     },
     {
@@ -790,7 +802,8 @@
       "name": "Go function definitions",
       "scope": ["entity.name.function.go"],
       "settings": {
-        "foreground": "#50FA7B"
+        "foreground": "#50FA7B",
+        "fontStyle": "italic"
       }
     },
     {
@@ -830,7 +843,8 @@
       "name": "GraphQL actions (mutations, fragments, queries)",
       "scope": ["entity.name.function.graphql"],
       "settings": {
-        "foreground": "#50FA7B"
+        "foreground": "#50FA7B",
+        "fontStyle": "italic"
       }
     },
     {
@@ -939,7 +953,8 @@
       "name": "Generic selectors",
       "scope": ["meta.selector"],
       "settings": {
-        "foreground": "#FF79C6"
+        "foreground": "#FF79C6",
+        "fontStyle": "italic"
       }
     },
     {
@@ -970,7 +985,8 @@
       "name": "HTML/CSS attribute names",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#50FA7B"
+        "foreground": "#50FA7B",
+        "fontStyle": "italic"
       }
     },
     {
@@ -992,6 +1008,36 @@
       "settings": {
         "foreground": "#8BE9FD"
       }
+    },
+    {
+      "name": "Keyword Operator Comparison, imports, returns and Keyword Operator Ruby",
+      "scope": [
+        "keyword.operator.comparison",
+        "keyword.control.flow.js",
+        "keyword.control.flow.ts",
+        "keyword.control.flow.tsx",
+        "keyword.control.ruby",
+        "keyword.control.module.ruby",
+        "keyword.control.class.ruby",
+        "keyword.control.def.ruby",
+        "keyword.control.loop.js",
+        "keyword.control.loop.ts",
+        "keyword.control.import.js",
+        "keyword.control.import.ts",
+        "keyword.control.import.tsx",
+        "keyword.control.from.js",
+        "keyword.control.from.ts",
+        "keyword.control.from.tsx",
+        "keyword.operator.instanceof.js",
+        "keyword.operator.expression.instanceof.ts",
+        "keyword.operator.expression.instanceof.tsx"
+      ],
+      "settings": { "foreground": "#8BE9FD", "fontStyle": "italic" }
+    },
+    {
+      "name": "Italics",
+      "scope": "italic",
+      "settings": { "foreground": "#8BE9FD", "fontStyle": "italic" }
     },
     {
       "name": "@media rules",
@@ -1030,6 +1076,16 @@
       "settings": {
         "foreground": "#F8F8F2"
       }
+    },
+    {
+      "name": "Keyword Operator Relational",
+      "scope": "keyword.operator.relational",
+      "settings": { "foreground": "#F8F8F2", "fontStyle": "italic" }
+    },
+    {
+      "name": "Meta Delimiter Period",
+      "scope": "meta.delimiter.period",
+      "settings": { "foreground": "#F8F8F2", "fontStyle": "italic" }
     },
     {
       "name": "JavaScript prototype prop",
@@ -1100,7 +1156,8 @@
       "name": "Makefile keys",
       "scope": ["entity.name.function.target.makefile"],
       "settings": {
-        "foreground": "#8BE9FD"
+        "foreground": "#8BE9FD",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1185,6 +1242,11 @@
         "fontStyle": "italic",
         "foreground": "#F1FA8C"
       }
+    },
+    {
+      "name": "Quote",
+      "scope": "quote",
+      "settings": { "foreground": "#F1FA8C", "fontStyle": "italic" }
     },
     {
       "name": "Horizontal rule",
@@ -1339,7 +1401,8 @@
       "name": "Python function definitions",
       "scope": ["entity.name.function.python"],
       "settings": {
-        "foreground": "#50FA7B"
+        "foreground": "#50FA7B",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1492,7 +1555,8 @@
       "name": "Ruby function parameters",
       "scope": ["variable.parameter.function.ruby"],
       "settings": {
-        "foreground": "#F8F8F2"
+        "foreground": "#F8F8F2",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1509,7 +1573,8 @@
         "support.function.kernel.ruby"
       ],
       "settings": {
-        "foreground": "#F8F8F2"
+        "foreground": "#F8F8F2",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1667,7 +1732,8 @@
         "meta.definition.property.tsx entity.name.function.tsx"
       ],
       "settings": {
-        "foreground": "#50FA7B"
+        "foreground": "#50FA7B",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1704,6 +1770,11 @@
       "settings": {
         "foreground": "#8BE9FD"
       }
+    },
+    {
+      "name": "HTML Doctype",
+      "scope": "meta.tag.sgml.doctype.html",
+      "settings": { "foreground": "#8BE9FD", "fontStyle": "italic" }
     },
     {
       "name": "TS Generics / Type Parameters",
