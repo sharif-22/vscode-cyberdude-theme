@@ -6,7 +6,7 @@ Simple, elegent cyberdude theme for Visual Studio Code.
 
 [![vscode](https://img.shields.io/badge/vscode-v1.12+-373277.svg?style=for-the-badge)](https://code.visualstudio.com/updates/v1_12) [![made in india](https://img.shields.io/badge/made%20in-india-008751.svg?style=for-the-badge)](https://github.com/anburocky3)
 
-> Update your screenshot here:
+![Cyber Dude Soft Theme](./screenshots/CyberDude-Soft.png)
 
 </div>
 
@@ -21,19 +21,19 @@ Simple, elegent cyberdude theme for Visual Studio Code.
 
 1. CyberDude
 
-   > Update your screenshot here:
+   ![Cyber Dude Theme](./screenshots/CyberDude.png)
 
-2. CyberDude Soft
+2. CyberDude Black
 
-   > Update your screenshot here:
+   ![Cyber Dude Black Theme](./screenshots/CyberDude-Black.png)
 
 3. CyberDude Dark
 
-   > Update your screenshot here:
+   ![Cyber Dude Dark Theme](./screenshots/CyberDude-Dark.png)
 
-4. CyberDude Black
+4. CyberDude Soft
 
-   > Update your screenshot here:
+   ![Cyber Dude Soft Theme](./screenshots/CyberDude-Soft.png)
 
 ## Contributing
 
