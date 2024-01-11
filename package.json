@@ -4,6 +4,10 @@
   "author": "Anbuselvan (http://twitter.com/anbuselvanrocky)",
   "displayName": "CyberDude Theme",
   "description": "Modern attractive themes to build your apps faster! 🔥",
+  "scripts": {
+    "build": "vsce package",
+    "deploy": "vsce publish"
+  },
   "icon": "cyberdude.jpg",
   "galleryBanner": {
     "color": "#31364A",
@@ -17,7 +21,7 @@
     "cyberdude theme",
     "cyberdude",
     "cyberdude dark theme",
-    "cool"
+    "cyberdude black theme"
   ],
   "repository": {
     "url": "https://github.com/anburocky3/vscode-cyberdude-theme",
@@ -57,5 +61,8 @@
   },
   "__metadata": {
     "publisherDisplayName": "Anbuselvan Rocky"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
   }
 }
